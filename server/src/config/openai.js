@@ -14,7 +14,7 @@ module.exports = class openai {
         return {
             model: "text-davinci-003",
             prompt: `${prompt}`,
-            temperature: 0,
+            temperature: 0.5,
             max_tokens: 3500,
             top_p: 1,
             frequency_penalty: 0.5,
